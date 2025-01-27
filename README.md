@@ -6,9 +6,9 @@ I utilized two files, downloaded from KY's ABC portal. (https://abc.ky.gov/) One
 Population data was taken from the US Cencus Bureau with the hierarchy being country (largest) -> state -> county -> tract -> blockgroup -> block (smallest). I chose to calculate the rate at the cencus tract level from the 2020 American Communities Survey using the US Census Bureau's API (https://api.census.gov/data/2020/acs/acs5/profile?get=NAME,DP05_0001E&for=tract:*&in=state:21&in=county:067)
 Because the license counts were much smaller than the population counts, I adjusted the rate by multiplying by per 100 or 1000 people (so the rate is X licenses per 1000 people instead). Additionally, each license was associated with a street address, so I utilized geocoding to associate particular addresses with a cencus tract. An API call was made keeping in mind the rate limits.
 
-I chose to calculate the rate of liquor licenses per capita (the number of licenses divided by the neighborhood’s population). I showed the top 20 neighborhoods with the highest rate of alcohol availability, as well as the top 20 neighborhoods with the highest number of licenses. Neighborhoods were defined as US Census Bureau tracts
+I concluded by calculating the rate of liquor licenses per capita (the number of licenses divided by the neighborhood’s population), showing the top 20 neighborhoods with the highest rate of alcohol availability, as well as the top 20 neighborhoods with the highest number of licenses. Neighborhoods were defined as US Census Bureau tracts
 
-This project was split into parts that organize my process.
+For readibility and clarity, I have split this project into parts
 #### Parts 9 - 12 contain results/conclusions
 
 - Part 1: Test API call for census and geocoding data
