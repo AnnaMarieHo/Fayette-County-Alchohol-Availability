@@ -11,7 +11,7 @@ Because the license counts were much smaller than the population counts, I adjus
 
 Each license was associated with a street address, so I utilized geocoding to associate particular addresses with a cencus tract. An API call was made keeping in mind the rate limits.
 
-Parts 9 - 13 contain results
+#### Parts 9 - 13 contain results
 
 #### Part 1: Test API call for census and geocoding data
 #### Part 2: Census API response & Data Cleaning
